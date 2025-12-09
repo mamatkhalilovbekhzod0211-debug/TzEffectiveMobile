@@ -33,6 +33,7 @@ class LoginScreen : AppCompatActivity() {
             btnLogin.setOnClickListener {
                 vm.btnEnterClicked()
         }
+            btnLogin.isEnabled = false
             btnVk.setOnClickListener {
                 vm.btnVKClicked()
             }

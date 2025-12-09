@@ -65,9 +65,6 @@ dependencies {
     implementation(libs.converter.gson)
     implementation(libs.retrofit2.kotlin.coroutines.adapter)
 
-//    implementation("androidx.navigation:navigation-fragment-ktx")
-    implementation("androidx.navigation:navigation-safe-args-gradle-plugin")
-
     implementation(libs.androidx.navigation.fragment.ktx)
     implementation(libs.androidx.navigation.ui.ktx)
 }

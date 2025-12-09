@@ -5,7 +5,6 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import uz.bekhzod0211.tzeffectivemobile.databinding.ItemCourseBinding
 import uz.bekhzod0211.tzeffectivemobile.presentation.main.data.resource.network.response.Course
-import uz.bekhzod0211.tzeffectivemobile.presentation.main.data.resource.network.response.CoursesResponse
 
 class CourseAdapter(
     private val list: List<Course>

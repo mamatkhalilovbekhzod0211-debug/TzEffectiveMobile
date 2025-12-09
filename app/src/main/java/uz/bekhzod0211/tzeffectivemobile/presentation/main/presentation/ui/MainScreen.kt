@@ -8,12 +8,13 @@ import android.widget.LinearLayout
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.recyclerview.widget.LinearLayoutManager
+import dagger.hilt.android.AndroidEntryPoint
 import dagger.hilt.android.HiltAndroidApp
 import uz.bekhzod0211.tzeffectivemobile.databinding.ScreenMainBinding
 import uz.bekhzod0211.tzeffectivemobile.presentation.main.presentation.adapter.CourseAdapter
 import uz.bekhzod0211.tzeffectivemobile.presentation.main.presentation.vm.MainViewModel
 
-@HiltAndroidApp
+@AndroidEntryPoint
 class MainScreen: Fragment(){
     var _binding: ScreenMainBinding? = null
     private val binding: ScreenMainBinding
