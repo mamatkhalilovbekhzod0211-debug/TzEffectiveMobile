@@ -17,6 +17,7 @@ object NetworkModule {
     fun provide(
     ): Retrofit {
         return Retrofit.Builder()
+            .baseUrl("https://drive.usercontent.google.com")
             .addConverterFactory(GsonConverterFactory.create())
             .build()
     }

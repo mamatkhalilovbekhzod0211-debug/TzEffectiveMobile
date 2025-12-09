@@ -26,7 +26,7 @@ class MainScreen: Fragment(){
         savedInstanceState: Bundle?
     ): View? {
         _binding = ScreenMainBinding.inflate(layoutInflater)
-
+        vm.load()
 
         vm.courses.observe(viewLifecycleOwner){
             binding.rvCourses.adapter = CourseAdapter(it)

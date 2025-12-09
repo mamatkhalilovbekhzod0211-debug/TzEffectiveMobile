@@ -7,8 +7,10 @@
 
     <!-- Контейнер под фрагменты -->
     <androidx.fragment.app.FragmentContainerView
+        android:name="androidx.navigation.fragment.NavHostFragment"
         android:id="@+id/nav_host_fragment"
         android:layout_width="match_parent"
+        app:navGraph="@navigation/app_nav_graph"
         android:layout_height="match_parent"
         android:layout_above="@+id/bottomNav"/>
 
@@ -17,6 +19,7 @@
         android:id="@+id/bottomNav"
         android:layout_width="match_parent"
         android:layout_height="72dp"
+        android:layout_marginBottom="32dp"
         android:layout_alignParentBottom="true"
         android:background="#151515"
         app:itemIconSize="26dp"

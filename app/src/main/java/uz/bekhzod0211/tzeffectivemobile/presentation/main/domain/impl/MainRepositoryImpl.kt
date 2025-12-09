@@ -12,7 +12,6 @@ class MainRepositoryImpl @Inject constructor(
 ) : MainRepository {
     override suspend fun getCourses(): Flow<Result<CoursesResponse>> = flow {
         val result = coursesApi.getCourses()
-
         if (result.isSuccessful) {
             val body = result.body()
             if (body != null) {

@@ -7,5 +7,13 @@
         android:id="@+id/nav_home"
         android:name="uz.bekhzod0211.tzeffectivemobile.presentation.main.presentation.ui.MainScreen"
         android:label="Главная" />
+    <fragment
+        android:id="@+id/nav_fav"
+        android:name="uz.bekhzod0211.tzeffectivemobile.BookMarkScreen"
+        android:label="Избранные" />
 
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="uz.bekhzod0211.tzeffectivemobile.ProfileScreen"
+        android:label="Профиль" />
 </navigation>
